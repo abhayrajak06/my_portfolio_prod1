@@ -17,8 +17,8 @@ const Menu = () => {
       <div>
         <div className="navbar-profile-pic">
           <img
-            src="https://th.bing.com/th/id/OIP.dYWvYkXgj1jP66ZZ6PzY0QHaGc?pid=ImgDet&rs=1"
-            // src="./avatar.jpg"
+            // src="https://th.bing.com/th/id/OIP.dYWvYkXgj1jP66ZZ6PzY0QHaGc?pid=ImgDet&rs=1"
+            src="assets/avatar.jpg"
             alt="profile"
           />
         </div>
