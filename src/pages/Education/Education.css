@@ -1,0 +1,23 @@
+.edu{
+    background-color: rgba(177, 177, 177, 0.461);
+}
+
+#dark {
+    /* background-color: rgb(170, 169, 169); */
+    background-color: #292E38;
+    color: white;
+}
+
+#dark u{
+    /* color: rgb(26, 25, 25) !important; */
+    color: white !important;
+}
+
+#dark .edu-card {
+    filter: brightness(80%);
+}
+
+#dark .vertical-timeline-element-date{
+    color: white;
+    font-weight: bold;
+}

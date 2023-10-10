@@ -1,0 +1,48 @@
+.sidebar-section{
+    display: flex;
+    /* position: fixed; */
+}
+
+.sidebar{
+    height: 100vh;
+    background-color: #1e1e2c;
+    width: 8rem; 
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar-toggle-icons{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    
+}
+
+.sidebar-toggle-icons p svg{
+    background-color: #f29f67;
+    cursor: pointer;
+    color: white;
+    margin-top: 2rem;
+    border-radius: 0.2rem;
+}
+
+.sidebar-toggle{
+    width: 16rem;
+    height: 100vh;
+    background-color: #1e1e2c;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.info-section{
+    width: 100vw;
+}
+
+.info-section-toggle{
+    margin-left: 15rem;
+}
+.info-section-not-toggle{
+    margin-left: 7rem;
+}

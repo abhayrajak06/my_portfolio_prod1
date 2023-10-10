@@ -1,0 +1,32 @@
+.techstack{
+    background-color: rgb(255, 255, 255);
+    /* margin-bottom: 2rem; */
+}
+
+/* .stack-card:hover{
+    background-color: #559655;
+    color: rgb(255, 255, 255);
+    background-color: rgb(191, 56, 56);
+    transition: 0.5s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+} */
+
+#skills{
+    /* background-color: yellow; */
+    cursor: pointer;
+}
+#skills:hover{
+    background-color: #559655;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: 0.2s;
+}
+
+#dark .techstack{ 
+    background-color: #20232B;
+    color: rgb(255, 255, 255);
+}
+
+#dark .techstack .stack-card{
+    filter: brightness(80%);
+}

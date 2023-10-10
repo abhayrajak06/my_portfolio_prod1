@@ -1,0 +1,52 @@
+.navbar-profile-pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.nav-item{
+    color: white;
+    margin-top: 2rem;
+    /* margin-left: 1rem; */
+    padding:0 1.2rem 0 1rem;
+    font-weight: bold;
+}
+
+.nav-link{
+    cursor: pointer;
+    margin-top: 1.3rem; 
+}
+.nav-link:hover{
+    color: #f49454;
+}
+
+.nav-link svg{
+    margin-right: 0.9rem;
+}
+
+.icons:hover{
+    transform: scale(1.1);
+    transition: 1ms;
+}
+
+.nav-link .active{
+    color: #f49454;
+    border-left: 3px solid #f49454;
+    padding-left: 6px;
+    text-decoration: none;
+}
+
+@media screen and (max-width:635px) {
+    .nav-items{
+        padding: 4rem 0.4rem;
+        font-size: 2rem;
+    }
+    .nav-item{
+        font-size: 0.6rem;
+    }
+    .nav-link svg{
+        margin-right: 0.4rem;
+    }
+}
