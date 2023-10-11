@@ -26,8 +26,8 @@ const Home = () => {
 
         <div className="container home-content">
           <Slide direction="right">
-            <h2>Hi I'm a .....</h2>
-            <h1>
+            <h4>Hi I'm a .....</h4>
+            <h3>
               <Typewriter
                 options={{
                   strings: [
@@ -39,7 +39,7 @@ const Home = () => {
                   loop: true,
                 }}
               />
-            </h1>
+            </h3>
 
             <div className="home-buttons">
               <button className="btn btn-hire">Hire Me</button>

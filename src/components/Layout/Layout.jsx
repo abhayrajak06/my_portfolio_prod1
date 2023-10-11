@@ -19,7 +19,7 @@ const Layout = () => {
         <div
           className="col-md-2 col-sm-2 col-3"
           style={{
-            height: "100vh",
+            height: "110vh",
             position: "sticky",
             top: 0,
             backgroundColor: "#1e1e2c",
@@ -51,8 +51,10 @@ const Layout = () => {
           <div className="" id="workexp">
             <WorkExp />
           </div>
-          <div className="" id="contact" style={{ height: "110vh" }}>
+          <div className="" id="contact" style={{ height: "100vh" }}>
             <Contact />
+          </div>
+          <div className="mb-2 mt-2" style={{ height: "10vh" }}>
             <Footer />
           </div>
         </div>
