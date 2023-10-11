@@ -40,7 +40,7 @@ img{
   }
   
   ::placeholder {
-    color: #bdbdbd;
+    color: #cec8c8;
     opacity: 1;
     font-weight: 300;
   }
@@ -96,5 +96,5 @@ img{
   }
 
   #dark ::placeholder {
-    color: #736c6c;
+    color: #d8d4d4;
   }
