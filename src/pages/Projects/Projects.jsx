@@ -39,6 +39,7 @@ const Projects = () => {
                         href="https://www.npmjs.com/"
                         className="btn ad-btn"
                         target="blank"
+                        rel="noopener noreferrer"
                       >
                         Live Demo
                       </a>
@@ -46,6 +47,7 @@ const Projects = () => {
                         href="https://www.npmjs.com/"
                         className="btn ad-btn"
                         target="blank"
+                        rel="noopener noreferrer"
                       >
                         Source Code
                       </a>
