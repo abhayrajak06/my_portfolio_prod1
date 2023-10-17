@@ -10,7 +10,9 @@ import {
   SiMysql,
   SiGithub,
   SiExpress,
+  SiPostman,
 } from "react-icons/si";
+import { BiLogoVisualStudio, BiLogoJava } from "react-icons/bi";
 export const TechstackList = [
   {
     _id: 1,
@@ -76,5 +78,20 @@ export const TechstackList = [
     _id: 13,
     name: "Git / Github ",
     icon: SiGithub,
+  },
+  {
+    _id: 14,
+    name: "Java",
+    icon: BiLogoJava,
+  },
+  {
+    _id: 15,
+    name: "VS Code",
+    icon: BiLogoVisualStudio,
+  },
+  {
+    _id: 16,
+    name: "Postman",
+    icon: SiPostman,
   },
 ];

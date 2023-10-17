@@ -15,10 +15,8 @@ const Projects = () => {
                 <u style={{ color: "#136211" }}>Top Recent Projects</u>
               </h2>
               <p className="text-center mt-4" style={{ fontWeight: "bold" }}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-                possimus, consectetur distinctio molestias odio aut suscipit
-                quas incidunt minima saepe ab, est culpa placeat eaque excepturi
-                deserunt architecto aliquid reprehenderit.
+                👉 Here are some of my latest exciting projects, showcasing my
+                skills and dedication to creating impactful solutions.
               </p>
             </div>
           </div>

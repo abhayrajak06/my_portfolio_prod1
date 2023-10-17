@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
-import Resume from "../../components/assets/docs/abhay.pdf";
+import Resume from "../../components/assets/docs/Abhay_Rajak_Resume.pdf";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 import { useTheme } from "../../context/ThemeContext";
 import { Slide } from "react-awesome-reveal";
@@ -18,9 +18,9 @@ const Home = () => {
       <div className="home-container bg-dark">
         <div className="theme-btn" onClick={handleTheme}>
           {theme === "light" ? (
-            <BsFillMoonStarsFill size={30} />
+            <BsFillMoonStarsFill size={20} />
           ) : (
-            <BsFillSunFill size={30} />
+            <BsFillSunFill size={22} />
           )}
         </div>
 
@@ -31,8 +31,9 @@ const Home = () => {
               <Typewriter
                 options={{
                   strings: [
-                    "Web Developer!",
+                    "Front-end Developer",
                     "React JS Developer!",
+                    "Web Developer!",
                     "MERN stack Developer!",
                   ],
                   autoStart: true,
@@ -42,7 +43,12 @@ const Home = () => {
             </h3>
 
             <div className="home-buttons">
-              <button className="btn btn-hire">Hire Me</button>
+              <a
+                href="mailto:abhayrajak1006@gmail.com"
+                className="btn btn-hire"
+              >
+                Hire Me
+              </a>
               <a
                 href={Resume}
                 download={"Abhay_Rajak.pdf"}

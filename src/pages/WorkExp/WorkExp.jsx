@@ -27,20 +27,19 @@ const WorkExp = () => {
                 className="vertical-timeline-element--work edu-card"
                 contentStyle={{ background: "white", color: "black" }}
                 contentArrowStyle={{ borderRight: "7px solid  white" }}
-                date="2023 - Present"
+                date="Sep 2022 - Nov 2022"
                 iconStyle={{ background: "#138781", color: "#fff" }}
                 icon={<AiFillHtml5 />}
               >
                 <h3 className="vertical-timeline-element-title text-success">
-                  Frontend Developer
+                  Web Designing
                 </h3>
                 <h5 className="vertical-timeline-element-subtitle">
-                  XYZ Pvt. Ltd.
+                  Ardent Computech Pvt. Ltd.
                 </h5>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Officiis ea sapiente exercitationem ratione iure. Et eius odio
-                  consequuntur aliquam maxime?
+                  I've learnt web designing using HTML, CSS, and Bootstrap. Made
+                  a major project "Gaming Website" .
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -54,14 +53,8 @@ const WorkExp = () => {
                 <h3 className="vertical-timeline-element-title text-success">
                   Frontend Developer
                 </h3>
-                <h5 className="vertical-timeline-element-subtitle">
-                  XYZ Pvt. Ltd.
-                </h5>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Officiis ea sapiente exercitationem ratione iure. Et eius odio
-                  consequuntur aliquam maxime?
-                </p>
+                <h5 className="vertical-timeline-element-subtitle">Codesoft</h5>
+                <p>Working as a frontend developer Intern.</p>
               </VerticalTimelineElement>
             </VerticalTimeline>
           </div>

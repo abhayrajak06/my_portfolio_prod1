@@ -24,15 +24,15 @@ const About = () => {
                 <div className="col-md-6 mt-2 about-content">
                   <h1 className="text-center">About Me</h1>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Inventore, et! Itaque eligendi quidem ab veniam veritatis
-                    tempora odit voluptas quis vero ipsa non, laborum
-                    exercitationem quam vel nobis maxime sint inventore,
-                    suscipit, nihil velit ex corporis! Delectus quasi dicta id
-                    accusamus minima error dolorum aperiam. Necessitatibus
-                    provident ipsa suscipit consequatur facere cum magnam eaque
-                    minima quod excepturi quos vel cupiditate harum esse, nam
-                    saepe reiciendis tenetur nemo possimus, ratione quibusdam.
+                    I am Abhay Rajak, a dedicated and passionate front-end
+                    developer, specializing in React JS technology. My
+                    enthusiasm for creating dynamic and user-friendly web
+                    applications is evident in my work. Currently, I am actively
+                    seeking job opportunities in React JS and front-end
+                    development, eager to contribute my skills and expertise to
+                    innovative projects. My commitment to staying updated with
+                    the latest web development trends and technologies makes me
+                    a promising addition to any development team.
                   </p>
                 </div>
               </div>

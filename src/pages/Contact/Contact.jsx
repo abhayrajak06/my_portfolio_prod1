@@ -60,9 +60,16 @@ const Contact = () => {
               <div className="d-flex contact-card card border-0 px-4 py-5">
                 <h6>
                   Contact With
-                  <BsLinkedin color="blue" size={25} className="ms-2" />
-                  <BsGithub color="black" size={25} className="ms-2" />
-                  <BsFacebook color="blue" size={25} className="ms-2" />
+                  <a
+                    href="https://www.linkedin.com/in/abhay-rajak-5b2b61202/"
+                    target="blank"
+                    className="p-2"
+                  >
+                    <BsLinkedin color="blue" size={25} className="ms-2" />
+                  </a>
+                  <a target="blank" href="https://github.com/abhayrajak06">
+                    <BsGithub color="black" size={25} className="ms-2" />
+                  </a>
                 </h6>
 
                 <div className="row or-design px-3 mb-4">
