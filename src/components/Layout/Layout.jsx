@@ -19,7 +19,7 @@ const Layout = () => {
         <div
           className="col-md-2 col-sm-2 col-3"
           style={{
-            height: "110vh",
+            height: "100vh",
             position: "sticky",
             top: 0,
             backgroundColor: "#1e1e2c",

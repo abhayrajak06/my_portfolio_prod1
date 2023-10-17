@@ -1,9 +1,18 @@
 .navbar-profile-pic img{
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     border-radius: 8rem;
     margin: 0 auto;
     margin-top: 2rem;
+    padding: 0.2rem;
+    border: 2px solid rgb(232, 223, 223);
+    box-shadow: rgba(221, 221, 230, 0.25) 0px 50px 100px -20px, rgba(217, 208, 208, 0.3) 0px 30px 60px -30px, rgba(1, 12, 22, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.navbar-profile-pic{
+    /* background-color: white; */
+    display: flex;
 }
 
 .nav-item{
@@ -50,3 +59,8 @@
         margin-right: 0.4rem;
     }
 }
+
+
+
+
+
