@@ -13,12 +13,15 @@ const Contact = () => {
   const form = useRef();
 
   const serviceId = import.meta.env.VITE_REACT_APP_YOUR_SERVICE_ID;
+  const templateId = import.meta.env.VITE_REACT_APP_YOUR_TEMPLATE_ID;
+  const publicKey = import.meta.env.VITE_REACT_APP_YOUR_PUBLIC_KEY;
+
   console.log(serviceId);
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm("service", "template", form.current, "public").then(
+    emailjs.sendForm(serviceId, templateId, form.current, publicKey).then(
       (result) => {
         setUsername("");
         setUseremail("");
