@@ -17,7 +17,7 @@ const Layout = () => {
     <div className="container-fluid">
       <div className="row">
         <div
-          className="col-md-2 col-sm-2 col-3"
+          className="col-md-2 col-sm-2 col-2"
           style={{
             height: "100vh",
             position: "sticky",
@@ -28,7 +28,7 @@ const Layout = () => {
           <Menu />
         </div>
         <div
-          className="col-sm-10  col-md-10 col-9 p-0"
+          className="col-sm-10  col-md-10 col-10 p-0"
           id={theme}
           style={{ display: "flex", flexDirection: "column" }}
         >

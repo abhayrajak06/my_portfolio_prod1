@@ -4,6 +4,9 @@
 
 .contact-section{
     background-color: rgb(239, 232, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact{

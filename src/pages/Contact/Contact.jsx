@@ -16,8 +16,6 @@ const Contact = () => {
   const templateId = import.meta.env.VITE_REACT_APP_YOUR_TEMPLATE_ID;
   const publicKey = import.meta.env.VITE_REACT_APP_YOUR_PUBLIC_KEY;
 
-  console.log(serviceId);
-
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -77,7 +75,7 @@ const Contact = () => {
                   <div className="line" />
                 </div>
 
-                <form onSubmit={sendEmail}>
+                <form ref={form} onSubmit={sendEmail}>
                   <div className="row px-3">
                     <input
                       type="text"
