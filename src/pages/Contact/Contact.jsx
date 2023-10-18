@@ -15,29 +15,22 @@ const Contact = () => {
   const serviceId = import.meta.env.VITE_REACT_APP_YOUR_SERVICE_ID;
   console.log(serviceId);
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  //   emailjs
-  //     .sendForm(
-  //       "service_dqf5qel",
-  //       "template_47rj40p",
-  //       form.current,
-  //       "cVS65uSZeidHxtO4H"
-  //     )
-  //     .then(
-  //       (result) => {
-  //         setUsername("");
-  //         setUseremail("");
-  //         setMessage("");
-  //         toast.success("Your message was sent successfully");
-  //       },
-  //       (error) => {
-  //         // console.log(error.text);
-  //         toast.error(error.text);
-  //       }
-  //     );
-  // };
+    emailjs.sendForm("service", "template", form.current, "public").then(
+      (result) => {
+        setUsername("");
+        setUseremail("");
+        setMessage("");
+        toast.success("Your message was sent successfully");
+      },
+      (error) => {
+        // console.log(error.text);
+        toast.error(error.text);
+      }
+    );
+  };
 
   return (
     <div id={theme}>
@@ -81,7 +74,7 @@ const Contact = () => {
                   <div className="line" />
                 </div>
 
-                <form>
+                <form onSubmit={sendEmail}>
                   <div className="row px-3">
                     <input
                       type="text"
