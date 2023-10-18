@@ -12,6 +12,9 @@ const Contact = () => {
 
   const form = useRef();
 
+  const serviceId = import.meta.env.VITE_REACT_APP_YOUR_SERVICE_ID;
+  console.log(serviceId);
+
   // const sendEmail = (e) => {
   //   e.preventDefault();
 
