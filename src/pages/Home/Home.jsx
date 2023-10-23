@@ -3,6 +3,7 @@ import "./Home.css";
 import Typewriter from "typewriter-effect";
 import Resume from "../../components/assets/docs/Abhay_Rajak_Resume.pdf";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
+import { AiFillGithub } from "react-icons/ai";
 import { useTheme } from "../../context/ThemeContext";
 import { Slide } from "react-awesome-reveal";
 
@@ -48,6 +49,14 @@ const Home = () => {
                 className="btn btn-hire"
               >
                 Hire Me
+              </a>
+              <a
+                href="https://github.com/abhayrajak06"
+                className="btn btn-git"
+                target={"blank"}
+                title="GitHub"
+              >
+                <AiFillGithub size={25} />
               </a>
               <a
                 href={Resume}

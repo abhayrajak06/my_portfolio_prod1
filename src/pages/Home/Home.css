@@ -31,7 +31,7 @@
     color: black;
     font-weight: bold;
     width: 8.4rem;
-    transition: 1s;
+    transition: 80ms;
 }
 
 .home-buttons .btn-cv{
@@ -43,6 +43,16 @@
 .home-buttons .btn-cv:hover{
     opacity: 90%;
     /* color: black; */
+}
+
+.btn-git{
+    margin-top: 0.6rem;
+    margin-right: 1rem;
+    background-color: #67679a !important;
+    color: whitesmoke;
+}
+.btn-git:hover{
+    background-color: rgb(43, 42, 42) !important;
 }
 
 .theme-btn{
